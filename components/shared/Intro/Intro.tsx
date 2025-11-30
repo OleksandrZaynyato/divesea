@@ -8,7 +8,7 @@ interface Props {
 
 export const Intro: React.FC<Props> = ({ className }) => {
     return (
-        <div className={cn('', className)}>
+        <div className={cn('bg-[#F9F9F9] px-[77px] h-fit', className)}>
             <Header />
         </div>
     );
