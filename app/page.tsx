@@ -1,5 +1,6 @@
 import { Container } from '@/components/shared';
-import {Weekly} from "@/components/shared/Weekly";
+import {Weekly} from "@/components/shared/weekly/Weekly";
+import {Slider} from "@/components/shared/weekly/Slider";
 
 export default function Home() {
     return (
