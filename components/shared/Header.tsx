@@ -10,11 +10,11 @@ interface Props {
 
 export const Header: React.FC<Props> = ({ className }) => {
     return (
-        <header className={cn('flex items-center justify-between pt-9', className)}>
+        <header className={cn('flex items-center justify-between ', className)}>
             <div className="flex items-center gap-[50px]">
                 <Image src="/Image/WaveLogo.png" alt="Logo" width={50} height={50} className="cursor-pointer" />
 
-                <nav className="flex gap-[50px] text-[#606060] font-medium">
+                <nav className="flex gap-[45px] text-[#606060] font-medium">
                     <h2 className="cursor-pointer">DISCOVER</h2>
                     <h2 className="cursor-pointer">CREATORS</h2>
                     <h2 className="cursor-pointer">SELL</h2>
