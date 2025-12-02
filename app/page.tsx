@@ -8,7 +8,6 @@ export default function Home() {
     return (
         <Container>
             <Intro />
-            <h1>Home</h1>
             <Weekly />
         </Container>
     );
