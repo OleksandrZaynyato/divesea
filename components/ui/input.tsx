@@ -11,7 +11,7 @@ export const Input: React.FC<Props> = ({ className, placeholder }) => {
     return (
         <div
             className={cn(
-                'bg-[#EDEDED] h-[50px] text-white font-medium py-4 px-[20px] rounded-2xl text-[13px] tracking-wide flex items-center gap-[25px]',
+                'bg-[#EDEDED] h-[60px] text-white font-normal py-4 px-5 rounded-2xl text-[15px] tracking-wide flex items-center gap-[25px]',
                 className
             )}>
             <Search color={'#9D9D9D'} width={22} height={22} />

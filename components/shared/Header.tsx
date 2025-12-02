@@ -14,7 +14,7 @@ export const Header: React.FC<Props> = ({ className }) => {
             <div className="flex items-center gap-[50px]">
                 <Image src="/Image/WaveLogo.png" alt="Logo" width={50} height={50} className="cursor-pointer" />
 
-                <nav className="flex gap-[45px] text-[#606060] font-medium">
+                <nav className="flex gap-[45px] text-[#606060] text-[18px] font-normal">
                     <h2 className="cursor-pointer">DISCOVER</h2>
                     <h2 className="cursor-pointer">CREATORS</h2>
                     <h2 className="cursor-pointer">SELL</h2>

@@ -16,7 +16,7 @@ export const Button: React.FC<Props> = ({ className, children, type }) => {
                 border: `${type === 'outline' ? '2px solid #141416' : 'none'}`,
             }}
             className={cn(
-                'bg-[#141416] text-white font-normal h-[50px] px-5 rounded-xl text-[15px] tracking-wide hover:bg-black transition-colors duration-300 cursor-pointer',
+                'bg-[#141416] text-white font-medium h-[60px] px-[29px] rounded-2xl text-[15px] tracking-wide hover:bg-black transition-colors duration-300 cursor-pointer',
                 className
             )}>
             {children}
