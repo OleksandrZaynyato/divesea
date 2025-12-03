@@ -1,0 +1,49 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    width: 395px !important;
+    height: 395px !important;
+    border-radius: 40px;
+
+    /* Важливо для 3D */
+    transform-style: preserve-3d;
+    box-shadow: 0 10px 20px -15px rgba(0, 0, 0, 0.3);
+    background: white;
+}
+
+.nav-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    min-width: 166px;
+    min-height: 69px;
+    border-radius: 17px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 50px 35px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    color: #333;
+    z-index: 50;
+}
+
+.nav-btn:hover:not(.swiper-button-disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    color: #000;
+}
+
+.nav-btn.swiper-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #f1f5f9;
+}
+
+.dots-pattern {
+    background-image: radial-gradient(#7f8185c7 2px, transparent 2px);
+    background-size: 16px 16px;
+}
