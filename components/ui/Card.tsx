@@ -9,7 +9,7 @@ interface Props {
 
 export const Card: React.FC = () => {
     return (
-        <div className="w-[281px] h-[402px] rounded-3xl border border-gray-200 bg-white p-3.5 shadow-md dark:border-gray-700 dark:bg-gray-800 font-[Poppins] flex flex-col justify-between overflow-visible">
+        <div className="w-[281px] h-[402px] rounded-3xl border border-gray-200 bg-white p-3.5 shadow-[17.72px_11.76px_58.81px_0px_rgba(199,199,199,0.6)] dark:border-gray-700 dark:bg-gray-800 font-[Poppins] flex flex-col justify-between overflow-visible">
 
             <div className="bg-gradient-to-b from-gray-50 to-gray-50 relative w-[252px] h-[252px] mx-auto rounded-[18px]">
                 {/* image */}

@@ -10,6 +10,9 @@ module.exports = {
             fontFamily: {
                 sans: ["var(--font-poppins)"], // imported from next/font/google
             },
+            boxShadow: {
+                figma: "17.72px 11.76px 58.81px 0px rgba(199,199,199,0.60)",
+            },
         },
     },
     plugins: [],
