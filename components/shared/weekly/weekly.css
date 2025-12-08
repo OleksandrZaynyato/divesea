@@ -1,0 +1,10 @@
+.swiper {
+    overflow: visible !important;
+}
+.swiper-wrapper {
+    overflow: visible !important;
+}
+
+.swiper-slide {
+    width: auto !important;
+}

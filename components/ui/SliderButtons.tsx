@@ -4,7 +4,7 @@ import React from "react";
 export const SliderButtons: React.FC = () => {
     return (
         <div
-            className="w-41 h-17 bg-white rounded-2xl grid grid-cols-[2fr_1fr_2fr] justify-items-center items-center shadow-[0px_43.12px_34.49px_-0px_rgba(15,15,15,0.12)]">
+            className="w-41 h-17 bg-white rounded-2xl grid grid-cols-[2fr_1fr_2fr] justify-items-center items-center shadow-[0px_43.12px_34.49px_-0px_rgba(15,15,15,0.12)] z-30 mx-auto">
             <div
                 className="custom-prev w-full h-full text-gray-600 text-2xl flex items-center justify-center cursor-pointer z-10 group">
                 <Image

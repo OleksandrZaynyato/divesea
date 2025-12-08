@@ -1,4 +1,5 @@
 import Image from "next/image";
+import {Button} from "@/components/ui";
 
 export const Banner: React.FC = () => {
     return (
@@ -8,6 +9,10 @@ export const Banner: React.FC = () => {
                 <div>
                     <h1 className="text-5xl font-semibold mb-4">Create and Sell NFTs</h1>
                     <p className="text-lg text-[#D4D4D4]">World’s Largest NFT Place</p>
+                </div>
+                <div className="flex gap-4">
+                    <Button className="bg-white" type="outline">Get Started</Button>
+                    <Button type="outline">Learn More</Button>
                 </div>
             </div>
             <div className="w-[390px] h-[290px] rounded-2xl overflow-visible flex items-center justify-center relative">
@@ -25,7 +30,6 @@ export const Banner: React.FC = () => {
                     height={369}
                     className="relative z-20 object-cover"
                 />
-
             </div>
         </div>
     );

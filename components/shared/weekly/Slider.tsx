@@ -14,6 +14,7 @@ export const Slider: React.FC<React.InputHTMLAttributes<HTMLInputElement>> = (pr
     return (
         <div className="w-full relative bg-[#F1F1F1] overflow-hidden mt-2 py-15">
             <Swiper
+                className="h-[410px]"
                 modules={[Navigation]}
                 navigation={{
                     nextEl: ".custom-next",
@@ -53,9 +54,11 @@ export const Slider: React.FC<React.InputHTMLAttributes<HTMLInputElement>> = (pr
                     <Card/>
                 </SwiperSlide>
             </Swiper>
-            <div className="w-full flex justify-center mt-29 mb-19 overflow-visible">
+            {/*<div className="w-full flex justify-center mt-29 mb-19 overflow-visible">*/}
+            <div className="mt-32">
                 <SliderButtons />
             </div>
+            {/*</div>*/}
 
         </div>
 
