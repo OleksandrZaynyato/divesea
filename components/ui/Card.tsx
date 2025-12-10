@@ -18,8 +18,7 @@ export const Card: React.FC = () => {
                     alt="NFT Card"
                     width={252}
                     height={252}
-                    className="relative z-10 rounded-3xl w-full h-full object-cover
-                    after:"
+                    className="relative z-10 rounded-3xl w-full h-full object-cover"
                 />
 
                 <div className="absolute top-3 right-3 bg-[#1C1D20]/40 border-2 border-[#1C1D20]/10 text-white items-center text-sm px-3.5 py-1.5 rounded-[9px] z-20">
