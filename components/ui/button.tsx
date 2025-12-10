@@ -1,7 +1,6 @@
 import React from 'react';
 import { cn } from '@/lib/utils';
-
-type ButtonType = "default" | "outline" | "white";
+type ButtonType = "default" | "outline" | "white" | "reverseOutline";
 
 interface Props {
     className?: string;
@@ -26,6 +25,11 @@ export const Button: React.FC<Props> = ({ className, children, type = "default" 
             color: "black",
             border: "none",
         },
+        reverseOutline: {
+            backgroundColor: "transparent",
+            color: "white",
+            border: "2px solid white",
+        },
     };
 
     return (
@@ -33,12 +37,10 @@ export const Button: React.FC<Props> = ({ className, children, type = "default" 
             style={variants[type]}
             className={cn(
                 "font-medium h-[60px] px-[29px] rounded-2xl text-[15px] tracking-wide transition-colors duration-300 cursor-pointer",
-                // default hover for black bg
                 type === "default" && "bg-[#141416] text-white hover:bg-black",
-                // outline hover
                 type === "outline" && "hover:bg-[#141416] hover:text-white",
-                // white hover
                 type === "white" && "bg-white text-black hover:bg-gray-100",
+                type === "reverseOutline" && "hover:bg-white hover:text-black",
                 className
             )}
         >
@@ -46,4 +48,3 @@ export const Button: React.FC<Props> = ({ className, children, type = "default" 
         </button>
     );
 };
-

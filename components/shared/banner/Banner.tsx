@@ -4,18 +4,18 @@ import {Button} from "@/components/ui";
 export const Banner: React.FC = () => {
     return (
         <div
-            className="w-full h-[311px] bg-[#141416] text-white p-8 my-20 rounded-4xl flex justify-between items-center font-['Poppins']">
-            <div className="h-full flex flex-col justify-between p-4">
+            className="w-full max-w-[1245px] h-[311px] bg-[#141416] text-white p-8 my-20 mx-auto rounded-4xl flex justify-between items-center font-['Poppins']">
+            <div className="h-full flex flex-col justify-between px-7.5 py-5">
                 <div>
                     <h1 className="text-5xl font-semibold mb-4">Create and Sell NFTs</h1>
-                    <p className="text-lg text-[#D4D4D4]">World’s Largest NFT Place</p>
+                    <p className="text-xl opacity-60 text-[#D4D4D4]">World’s Largest NFT Place</p>
                 </div>
-                <div className="flex gap-4">
-                    <Button className="bg-white" type="outline">Get Started</Button>
-                    <Button type="outline">Learn More</Button>
+                <div className="flex gap-5">
+                    <Button type="white" className="w-[183.06px] h-[67.66px] text-xl font-semibold p-5">Explore More</Button>
+                    <Button type="reverseOutline" className="w-[183.06px] h-[67.66px] text-xl font-semibold p-5">Sell Artwork</Button>
                 </div>
             </div>
-            <div className="w-[390px] h-[290px] rounded-2xl overflow-visible flex items-center justify-center relative">
+            <div className="w-[390px] h-[290px] rounded-2xl overflow-visible flex items-center justify-center relative translate-x-2">
                 <Image
                     src="/Rectangle33.png"
                     alt="NFT Card"
